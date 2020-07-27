@@ -14,10 +14,6 @@ public class FindEatDinner {
 
     private static final Map<Integer, Long> map = new HashMap<>(16);
 
-    @RequestMapping(value = "please_click")
-    private Object findEatDinnerPeople() {
-        return "我想你了";
-    }
 
     @RequestMapping(value = "random")
     private Object random() {

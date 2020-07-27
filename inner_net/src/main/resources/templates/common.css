@@ -1,0 +1,381 @@
+body {
+    font-family: "Microsoft Yahei", sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    background-image: url(image9-11/image_0000s_0002s_0002_图层-1.png);
+    color: white;
+    width: 1600px;
+    height: 990px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#title {
+    display: inline-block;
+    font-size: 64px;
+    padding-top: 200px;
+    width: 960px;
+}
+
+#titlebottom {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 960px;
+    font-size: 24px;
+    padding: 70px 70px 100px 70px;
+}
+
+#login {
+    display: inline-block;
+    border: 1px solid white;
+    width: 960px;
+    height: 240px;
+}
+
+#login div:first-child {
+    font-size: 20px;
+    transform: scale(1.2, 1);
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+#login div:nth-child(2) {
+    font-size: 1em;
+    transform: scale(1.2, 1);
+    color: rgb(90, 90, 90);
+}
+
+#login div input:first-child {
+    width: 300px;
+    height: 50px;
+    border: none;
+}
+
+#login div input:nth-child(2) {
+    width: 300px;
+    height: 50px;
+    border: none;
+}
+
+#login div input:nth-child(3) {
+    width: 120px;
+    height: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+}
+
+section {
+    width: 1600px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+#landingpage {
+    width: 1170px;
+    height: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#landingpage div {
+    display: inline-block;
+}
+
+#landingpage>div:first-child {
+    width: 1170px;
+    height: 15px;
+    font-size: 15px;
+    margin-top: 85px;
+}
+
+#landingpage>div:nth-child(2) {
+    width: 1170px;
+    height: 170px;
+    font-size: 48px;
+    margin-top: 40px;
+}
+
+#landingpage>div:nth-child(3) {
+    width: 1170px;
+    height: 450px;
+}
+
+#moblie div {
+    width: 420px;
+    height: 120px;
+}
+
+#moblie div img {
+    float: left;
+}
+
+#third {
+    background-image: url(image9-11/image_0000s_0002s_0002_图层-1.png);
+}
+
+#supportive {
+    width: 500px;
+    height: 430px;
+    margin: 180px 0 180px 320px;
+    float: left;
+    color: #ffffff;
+}
+
+#supportive div:first-child {
+    font-size: 32px;
+    width: 370px;
+}
+
+#supportive div:nth-child(2) {
+    width: 370px;
+    margin-top: 40px;
+}
+
+#supportive button:nth-child(3) {
+    width: 240px;
+    height: 50px;
+    font-size: 12px;
+    margin-top: 60px;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+}
+
+#picture {
+    width: 650px;
+    height: 600px;
+    float: right;
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 100px;
+    border-top: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
+    border-left: 1px solid rgb(200, 200, 200);
+}
+
+#picture img {
+    width: 600px;
+    height: 550px;
+}
+
+#supportive button:nth-child(4) {
+    width: 240px;
+    height: 50px;
+    font-size: 12px;
+    margin-top: 60px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+}
+
+#products {
+    width: 960px;
+    height: 580px;
+    margin: 0 auto;
+}
+
+#products>div:first-child {
+    font-size: 48px;
+    text-align: center;
+    margin: 90px auto 80px auto;
+}
+
+#prointroduction {
+    display: flex;
+    justify-content: space-between;
+}
+
+#prointroduction div {
+    width: 260px;
+    height: 280px;
+}
+
+#prointroduction img {
+    display: table-cell;
+    text-align: center;
+}
+
+#learn {
+    width: 960px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+#learn div div:first-child {
+    float: left;
+    width: 320px;
+    height: 240px;
+    margin-top: 150px;
+}
+
+#learn div div:nth-child(2) {
+    float: right;
+    width: 320px;
+    height: 240px;
+    margin-top: 180px;
+}
+
+#learn img {
+    width: 570px;
+    height: 350px;
+}
+
+#learn img:first-child {
+    float: left;
+    margin-top: 110px;
+}
+
+#learn img:nth-child(2) {
+    float: right;
+    margin-top: 80px;
+}
+
+#learn p:first-child {
+    font: 24px bold;
+}
+
+#crew {
+    width: 960px;
+    height: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#crew div:first-child {
+    font-size: 48px;
+    margin-top: 100px;
+}
+
+#crew div:nth-child(2) {
+    margin-top: 30px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#crewphoto {
+    width: 960px;
+    height: 710px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+#crewphoto img {
+    width: 470px;
+    height: 350px;
+}
+
+#contacts {
+    width: 1600px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+#contacts>div {
+    width: 960px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacts>div>div {
+    width: 470px;
+    height: 560px;
+    margin-top: 70px;
+}
+
+#contacts>div>div:first-child {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+}
+
+#contacts input {
+    width: 370px;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+#fell {
+    text-align: center;
+    vertical-align: middle;
+    width: 370px;
+    height: 110px;
+    line-height: 110px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+#email {
+    height: 50px;
+    margin-left: 50px;
+}
+
+#subject {
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#message {
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 140px;
+}
+
+#send {
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#con {
+    text-align: left;
+    width: 360px;
+    height: 370px;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+#con p:first-child {
+    font-size: 48px;
+}
+
+footer {
+    width: 1600px;
+    height: 400px;
+    background-color: black;
+    margin: 0 auto;
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+}
+
+footer>div {
+    width: 1200px;
+    height: 310px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+footer div div {
+    width: 150px;
+    height: 200px;
+}
+
+footer div div:last-child {
+    width: 270px;
+    height: 200px;
+}
+
+footer div div p:first-child {
+    color: #ffffff;
+}
