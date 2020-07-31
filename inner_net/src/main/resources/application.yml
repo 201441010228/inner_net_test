@@ -3,7 +3,22 @@ server:
   port: 8080
 
 spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:9091
   thymeleaf:
     prefix:
-      classpath: /templates   # 访问template下的html文件需要配置模板，映射
-    cache: false # 开发时关闭缓存,不然没法看到实时页面
+      classpath: /templates
+    cache: false
+info:
+  version=@project:
+    version@:
+
+management:
+    endpoints:
+      web:
+        exposure:
+          include: '*'
+    health:
+      show-details: always

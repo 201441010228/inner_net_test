@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <jmxConfigurator/>
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+        <resetJUL>true</resetJUL>
+    </contextListener>
+
+    <include resource="ad_logger/common_logger.xml"/>
+    <include resource="ad_logger/grpc_logger.xml"/>
+    <include resource="ad_logger/kafka_logger.xml"/>
+    <include resource="ad_logger/console.xml"/>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
